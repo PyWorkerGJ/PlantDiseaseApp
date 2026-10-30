@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PBL Presentation | 2026</title>
+<title>Predictive Analytics Project | 5th Semester</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -33,7 +33,7 @@ section{scroll-margin-top:100px}
 <img src="mujlogo.jpg" style="height:100%;width:100%;object-fit:contain">
 </div>
 <div>
-<div class="text-lg font-black uppercase">PBL <span class="text-blue-500 italic">2026</span></div>
+<div class="text-lg font-black uppercase">Predictive Analytics <span class="text-blue-500 italic">Project</span></div>
 <div class="text-xs text-slate-400 uppercase tracking-widest">Computer Science & Engineering</div>
 </div>
 </div>
@@ -51,7 +51,7 @@ section{scroll-margin-top:100px}
 
 <!-- Hero -->
 <section class="text-center">
-<div class="text-xs text-slate-400 uppercase tracking-widest mb-4">ID: 2427030363 &nbsp;|&nbsp; PBL-2 &nbsp;|&nbsp; Jan–May 2026</div>
+<div class="text-xs text-slate-400 uppercase tracking-widest mb-4">5th Semester &nbsp;|&nbsp; Predictive Analytics Project</div>
 <h1 class="text-5xl md:text-6xl font-extrabold mb-6 uppercase leading-tight">
 <span class="gradient-text">Plant Disease Detector</span><br>
 <span class="text-white text-3xl md:text-4xl font-bold">with AI-Generated Image Validation System</span>
@@ -200,8 +200,8 @@ A two-stage deep learning pipeline using ResNet-18 with pretrained ImageNet weig
 
 <!-- Enhancements -->
 <section id="enhancements">
-<h2 class="text-3xl font-black text-center mb-4 uppercase">PBL-2 Enhancements</h2>
-<p class="text-center text-slate-500 text-sm mb-10">Built on top of the PBL-1 foundation during 4th semester (PBL-2)</p>
+<h2 class="text-3xl font-black text-center mb-4 uppercase">Project Enhancements</h2>
+<p class="text-center text-slate-500 text-sm mb-10">Enhancements to the project implementation</p>
 <div class="grid md:grid-cols-2 gap-6">
 <div class="glass p-6 rounded-2xl border-l-4 border-green-500">
 <div class="flex items-center gap-3 mb-3">
@@ -267,25 +267,28 @@ A two-stage deep learning pipeline using ResNet-18 with pretrained ImageNet weig
 
 <!-- Team -->
 <section id="team" class="text-center">
-<h2 class="text-xs uppercase tracking-widest text-slate-500 mb-6">Academic Credits</h2>
+<h2 class="text-xs uppercase tracking-widest text-slate-500 mb-6">Project Team</h2>
 <div class="flex justify-center gap-8 flex-wrap">
+
 <div class="glass px-8 py-6 rounded-2xl border-b-4 border-blue-600">
-<p class="text-blue-500 text-xs uppercase">Project Guide</p>
-<p class="font-bold">Dr. Ashok Kumar Saini</p>
-<p class="text-xs text-slate-500">Department of CSE</p>
-</div>
-<div class="glass px-8 py-6 rounded-2xl border-b-4 border-slate-700">
-<p class="text-slate-400 text-xs uppercase">Student</p>
+<p class="text-blue-500 text-xs uppercase">Student</p>
 <p class="font-bold">Garv Jhuremalani</p>
-<p class="text-xs text-slate-500">2427030363 | Section-B | IV Sem</p>
+<p class="text-xs text-slate-500">2427030363</p>
 </div>
+
+<div class="glass px-8 py-6 rounded-2xl border-b-4 border-blue-600">
+<p class="text-blue-500 text-xs uppercase">Student</p>
+<p class="font-bold">Samar Raj</p>
+<p class="text-xs text-slate-500">2427030312</p>
+</div>
+
 </div>
 </section>
 
 </main>
 
 <footer class="py-8 text-center bg-black/40 border-t border-slate-900">
-<p class="text-slate-600 text-xs uppercase">Manipal University Jaipur • CSE • PBL-2 • 2026</p>
+<p class="text-slate-600 text-xs uppercase">Manipal University Jaipur • CSE • Predictive Analytics • 5th Semester</p>
 </footer>
 
 <script>
@@ -303,41 +306,41 @@ document.getElementById("displayTime").innerText=
 <script>
 const ctx = document.getElementById('resultsChart').getContext('2d');
 new Chart(ctx,{
-  type:'bar',
-  data:{
-    labels:['Fake Detector', 'Disease Classifier'],
-    datasets:[{
-      label:'Accuracy %',
-      data:[91.21, 99.45],
-      backgroundColor:['#1d4ed8','#15803d'],
-      borderRadius:8,
-      barThickness:60,
-    }]
-  },
-  options:{
-    responsive:true,
-    maintainAspectRatio:false,
-    plugins:{
-      legend:{display:false},
-      tooltip:{
-        callbacks:{
-          label: ctx => ` ${ctx.raw}%`
-        }
-      }
-    },
-    scales:{
-      y:{
-        beginAtZero:true,
-        max:100,
-        grid:{color:'rgba(255,255,255,0.05)'},
-        ticks:{color:'#64748b', callback: v => v+'%'}
-      },
-      x:{
-        grid:{display:false},
-        ticks:{color:'#64748b'}
-      }
-    }
-  }
+type:'bar',
+data:{
+labels:['Fake Detector', 'Disease Classifier'],
+datasets:[{
+label:'Accuracy %',
+data:[91.21, 99.45],
+backgroundColor:['#1d4ed8','#15803d'],
+borderRadius:8,
+barThickness:60,
+}]
+},
+options:{
+responsive:true,
+maintainAspectRatio:false,
+plugins:{
+legend:{display:false},
+tooltip:{
+callbacks:{
+label: ctx => ` ${ctx.raw}%`
+}
+}
+},
+scales:{
+y:{
+beginAtZero:true,
+max:100,
+grid:{color:'rgba(255,255,255,0.05)'},
+ticks:{color:'#64748b', callback: v => v+'%'}
+},
+x:{
+grid:{display:false},
+ticks:{color:'#64748b'}
+}
+}
+}
 });
 </script>
 
