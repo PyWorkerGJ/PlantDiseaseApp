@@ -1,8 +1,6 @@
 # Plant Disease Detector with AI-Generated Image Validation System
 
-**PBL-2 | Manipal University Jaipur | CSE | 2025-2026**
 **Student:** Garv Jhuremalani | **Reg No:** 2427030363
-**Guide:** Dr. Ashok Kumar Saini
 
 ---
 
@@ -19,7 +17,7 @@ If a fake/AI-generated image is uploaded, the pipeline stops immediately. No exi
 
 ## Live Presentation
 
-[https://pyworkergj.github.io/PBL_2026_Garv-Jhuremalani_2427030363/](https://pyworkergj.github.io/PBL_2026_Garv-Jhuremalani_2427030363/)
+[https://pyworkergj.github.io/Garv-Jhuremalani_2427030363/](https://pyworkergj.github.io/Garv-Jhuremalani_2427030363/)
 
 ---
 
