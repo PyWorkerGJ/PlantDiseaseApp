@@ -1,6 +1,7 @@
 # Plant Disease Detector with AI-Generated Image Validation System
 
 **Student:** Garv Jhuremalani | **Reg No:** 2427030363
+**Student:** Samar Raj | **Reg No:** 2427030312
 
 ---
 
