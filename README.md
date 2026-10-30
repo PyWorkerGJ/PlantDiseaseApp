@@ -19,7 +19,7 @@ If a fake/AI-generated image is uploaded, the pipeline stops immediately. No exi
 
 ## Live Presentation
 
-[https://pyworkergj.github.io/Garv-Jhuremalani_2427030363/](https://pyworkergj.github.io/Garv-Jhuremalani_2427030363/)
+[https://pyworkergj.github.io/PlantDiseaseApp/](https://pyworkergj.github.io/PlantDiseaseApp/)
 
 ---
 
